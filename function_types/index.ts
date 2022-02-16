@@ -6,7 +6,7 @@ function divide(a, b){return a/b}
 function wrongAdd(a, b){return (a+b)+''}
 
 // Add your function type below:
-
+type OperatorFunction = (arg0: number, arg1: number) => number;
 
 // Math Tutor Function That Accepts a Callback
 function mathTutor(operationCallback) {
