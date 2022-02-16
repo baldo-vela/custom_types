@@ -9,7 +9,7 @@ function wrongAdd(a, b){return (a+b)+''}
 type OperatorFunction = (arg0: number, arg1: number) => number;
 
 // Math Tutor Function That Accepts a Callback
-function mathTutor(operationCallback) {
+function mathTutor(operationCallback: OperatorFunction) {
   console.log("Let's learn how to", operationCallback.name,'!');
   let value25 = operationCallback(2,5);
   console.log('When we', operationCallback.name, '2 and 5, we get', value25, '.');
