@@ -20,3 +20,4 @@ function mathTutor(operationCallback: OperatorFunction) {
 // Call your functions below:
 mathTutor(multiply);
 mathTutor(wrongAdd);
+//Note how the transpiler and VSC both catch this call as erroneous.
