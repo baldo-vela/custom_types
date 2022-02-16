@@ -18,4 +18,4 @@ function mathTutor(operationCallback) {
 }
 
 // Call your functions below:
-
+mathTutor(multiply);
