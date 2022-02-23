@@ -1,4 +1,5 @@
-# Code Academy TypeScript Course: Custom Types: Function Types
+# Code Academy TypeScript Course: 
+## Custom Types: Function Types
 One of the neat things about JavaScript is that functions can be assigned to variables.
 
 let myFavoriteFunction = console.log; // Note the lack of parentheses.
