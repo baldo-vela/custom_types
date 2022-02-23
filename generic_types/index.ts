@@ -11,12 +11,12 @@ let theFamily: Family<number> = {
   parents: [3, 4], mate: 9, children: [5, 30, 121]
 };
 
-let someFamily = {
+let someFamily: Family<Boolean> = {
   parents: [true, true], mate: false, 
   children: [false, false, true, true]
 };
 
-let aFamily = {
+let aFamily: Family<Human> = {
   parents: [
     {name: 'Mom', job: 'software engineer'},
     {name: 'Dad', job: 'coding engineer'}
