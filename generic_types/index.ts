@@ -11,7 +11,7 @@ let theFamily: Family<number> = {
   parents: [3, 4], mate: 9, children: [5, 30, 121]
 };
 
-let someFamily: Family<Boolean> = {
+let someFamily: Family<boolean> = {
   parents: [true, true], mate: false, 
   children: [false, false, true, true]
 };
