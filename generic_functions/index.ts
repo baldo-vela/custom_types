@@ -19,4 +19,5 @@ All elements in personArray should equal {name: 'J. Dean', age: 24}.
 All elements in coordinateArray should equal [3,4].
 Don’t forget to specify the value of T! */
   
-  
+stringArray = getFilledArray<string>('hi',6);
+numberArray = getFilledArray<number>(9,6);
