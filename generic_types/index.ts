@@ -25,7 +25,7 @@ let aFamily: Family<Human> = {
   children: [{name: 'Babesky', job: 'none'}]
 };
 
-let anotherFamily = {
+let anotherFamily: Family<Dog> = {
   parents: [
     {name: 'Momo', tailWagSpeed: 3},
     {name: 'Dado', tailWagSpeed: 100}
