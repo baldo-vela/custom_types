@@ -7,7 +7,7 @@ type Family<T> = {
 //Do not change the code above this line.
 
 //Provide type annotations for the variables below:
-let theFamily = {
+let theFamily: Family<number> = {
   parents: [3, 4], mate: 9, children: [5, 30, 121]
 };
 
